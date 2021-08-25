@@ -1,0 +1,17 @@
+{
+  "name": "cropbank",
+  "version": "1.0.0",
+  "description": "CropBank é uma forma simples e inovadora de análise e concessão de crédito rural como você nunca viu.",
+  "main": "index.js",
+  "repository": "https://github.com/willianspaulo/site-cropbank.git",
+  "author": "Willians <willianspaulo@live.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "aws s3 sync . s3://www.inposbr.com.br --acl public-read"
+  }
+}
