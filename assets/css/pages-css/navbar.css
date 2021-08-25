@@ -111,7 +111,7 @@ Navbar Area Style
 
 .desktop-nav .navbar .navbar-nav {
   margin-left: auto;
-  margin-right: 0;
+  margin-right: 30px;
 }
 
 .desktop-nav .navbar .navbar-nav .nav-item {
