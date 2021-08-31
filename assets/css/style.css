@@ -617,11 +617,13 @@ Study Area Style
           transform: translateY(-30px);
 }
 
-.study-area .owl-theme .owl-nav .owl-prev, .study-area .owl-theme .owl-nav .owl-next {
+.study-area .owl-theme .owl-nav .owl-prev,
+.study-area .owl-theme .owl-nav .owl-next {
   margin: 0 5px;
 }
 
-.study-area .owl-theme .owl-nav .owl-prev i, .study-area .owl-theme .owl-nav .owl-next i {
+.study-area .owl-theme .owl-nav .owl-prev i,
+.study-area .owl-theme .owl-nav .owl-next i {
   font-size: 20px;
   color: var(--white-color);
   border: 1px solid var(--white-color);
@@ -633,7 +635,8 @@ Study Area Style
   transition: var(--transition);
 }
 
-.study-area .owl-theme .owl-nav .owl-prev:hover i, .study-area .owl-theme .owl-nav .owl-next:hover i {
+.study-area .owl-theme .owl-nav .owl-prev:hover i,
+.study-area .owl-theme .owl-nav .owl-next:hover i {
   background-color: var(--white-color);
   color: var(--main-color);
 }
@@ -643,7 +646,7 @@ Study Area Style
   left: auto;
 }
 
-.study-area .owl-theme .owl-nav [class*=owl-]:hover {
+.study-area .owl-theme .owl-nav [class*="owl-"]:hover {
   background-color: transparent;
 }
 
@@ -651,13 +654,15 @@ Study Area Style
   height: 100%;
 }
 
-.study-area.study-area-style-two .owl-theme .owl-nav .owl-prev i, .study-area.study-area-style-two .owl-theme .owl-nav .owl-next i {
+.study-area.study-area-style-two .owl-theme .owl-nav .owl-prev i,
+.study-area.study-area-style-two .owl-theme .owl-nav .owl-next i {
   font-size: 20px;
   color: var(--heading-color);
   border: 1px solid var(--heading-color);
 }
 
-.study-area.study-area-style-two .owl-theme .owl-nav .owl-prev:hover i, .study-area.study-area-style-two .owl-theme .owl-nav .owl-next:hover i {
+.study-area.study-area-style-two .owl-theme .owl-nav .owl-prev:hover i,
+.study-area.study-area-style-two .owl-theme .owl-nav .owl-next:hover i {
   background-color: var(--main-color);
   color: var(--white-color);
   border-color: var(--main-color);
@@ -668,7 +673,7 @@ Study Area Style
   left: auto;
 }
 
-.study-area.study-area-style-two .owl-theme .owl-nav [class*=owl-]:hover {
+.study-area.study-area-style-two .owl-theme .owl-nav [class*="owl-"]:hover {
   background-color: transparent;
 }
 
@@ -1555,7 +1560,8 @@ Campus Experience Area Style
   margin-top: 0 !important;
 }
 
-.campus-experience-slider.owl-theme .owl-nav .owl-prev, .campus-experience-slider.owl-theme .owl-nav .owl-next {
+.campus-experience-slider.owl-theme .owl-nav .owl-prev,
+.campus-experience-slider.owl-theme .owl-nav .owl-next {
   position: absolute;
   left: -5px;
   top: 50%;
@@ -1565,7 +1571,8 @@ Campus Experience Area Style
   opacity: 0;
 }
 
-.campus-experience-slider.owl-theme .owl-nav .owl-prev i, .campus-experience-slider.owl-theme .owl-nav .owl-next i {
+.campus-experience-slider.owl-theme .owl-nav .owl-prev i,
+.campus-experience-slider.owl-theme .owl-nav .owl-next i {
   font-size: 20px;
   color: var(--main-color);
   border: 1px solid var(--main-color);
@@ -1577,7 +1584,8 @@ Campus Experience Area Style
   transition: var(--transition);
 }
 
-.campus-experience-slider.owl-theme .owl-nav .owl-prev:hover i, .campus-experience-slider.owl-theme .owl-nav .owl-next:hover i {
+.campus-experience-slider.owl-theme .owl-nav .owl-prev:hover i,
+.campus-experience-slider.owl-theme .owl-nav .owl-next:hover i {
   background-color: var(--main-color);
   color: var(--white-color);
 }
@@ -1587,11 +1595,12 @@ Campus Experience Area Style
   left: auto;
 }
 
-.campus-experience-slider.owl-theme .owl-nav [class*=owl-]:hover {
+.campus-experience-slider.owl-theme .owl-nav [class*="owl-"]:hover {
   background-color: transparent;
 }
 
-.campus-experience-slider:hover.owl-theme .owl-nav .owl-prev, .campus-experience-slider:hover.owl-theme .owl-nav .owl-next {
+.campus-experience-slider:hover.owl-theme .owl-nav .owl-prev,
+.campus-experience-slider:hover.owl-theme .owl-nav .owl-next {
   opacity: 1;
 }
 
@@ -2032,5 +2041,19 @@ Blog Area Style
 .single-blog:hover .blog-content::after {
   -webkit-transform: scaleY(1);
           transform: scaleY(1);
+}
+
+.form-group {
+  margin-bottom: 30px;
+}
+
+.form-group label {
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.form-group .form-control {
+  -webkit-box-shadow: var(--box-shadow);
+  box-shadow: var(--box-shadow);
 }
 /*# sourceMappingURL=style.css.map */
